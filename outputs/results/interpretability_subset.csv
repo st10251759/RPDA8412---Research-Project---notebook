@@ -1,0 +1,18 @@
+image_id,label,prob_resnet50,pred_resnet50,prob_vit_base,pred_vit_base,agreement
+IMG_0868,1,0.54676837,1,0.8671483,1,both correct
+IMG_0161,1,0.8518296,1,0.9579909,1,both correct
+IMG_0983,1,0.8255897,1,0.9563905,1,both correct
+IMG_0083,1,0.6989463,1,0.46447644,0,ResNet-50 only correct
+IMG_0713,1,0.51750994,1,0.2893717,0,ResNet-50 only correct
+IMG_0757,1,0.64957863,1,0.41347715,0,ResNet-50 only correct
+IMG_0733,1,0.38966265,0,0.7757747,1,ViT-Base only correct
+IMG_1108,1,0.4696267,0,0.8879841,1,ViT-Base only correct
+IMG_0931,1,0.43710256,0,0.84286314,1,ViT-Base only correct
+IMG_0585,1,0.4086897,0,0.17981844,0,both wrong
+IMG_1102,1,0.49449563,0,0.11899801,0,both wrong
+IMG_0218,1,0.39869905,0,0.42482957,0,both wrong
+IMG_0308,0,0.43716258,0,0.042087726,0,both correct
+IMG_0736,0,0.3671568,0,0.45232424,0,both correct
+IMG_0302,0,0.40721554,0,0.004663655,0,both correct
+IMG_0483,0,0.5512416,1,0.047869004,0,ViT-Base only correct
+IMG_0801,0,0.5622366,1,0.5094364,1,both wrong

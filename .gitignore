@@ -1,0 +1,18 @@
+# raw dataset images (not redistributed)
+data/
+dataset/
+raw_images/
+*.jpg
+*.jpeg
+*.png
+# model weights and caches
+*.pt
+*.pth
+*.safetensors
+*.npy
+*.npz
+checkpoints/
+weights/
+# notebook and OS clutter
+.ipynb_checkpoints/
+__pycache__/

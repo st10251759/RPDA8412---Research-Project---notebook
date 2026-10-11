@@ -1,0 +1,117 @@
+{
+  "seed": 42,
+  "dataset": {
+    "kaggle_handle": "saife245/tuberculosis-image-datasets",
+    "download_with_kagglehub": true,
+    "expected_images": 928,
+    "expected_bacilli": 3734,
+    "image_extensions": [
+      ".jpg",
+      ".jpeg",
+      ".png",
+      ".bmp",
+      ".tif",
+      ".tiff"
+    ],
+    "exclude_images_without_xml": true,
+    "min_images_per_class": 10,
+    "near_duplicate_hamming_threshold": 5
+  },
+  "preprocessing": {
+    "image_size": 224,
+    "normalisation_mode": "per_backbone",
+    "imagenet_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "imagenet_std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "augmentation": {
+    "hflip_p": 0.5,
+    "vflip_p": 0.5,
+    "rotation_degrees": 15,
+    "intensity": {
+      "low": {
+        "colour_jitter": 0.1,
+        "crop_scale": [
+          0.9,
+          1.0
+        ]
+      },
+      "moderate": {
+        "colour_jitter": 0.2,
+        "crop_scale": [
+          0.8,
+          1.0
+        ]
+      }
+    }
+  },
+  "split": {
+    "test_size": 0.2,
+    "n_folds": 5
+  },
+  "models": {
+    "resnet50": {
+      "source": "torchvision",
+      "weights": "IMAGENET1K_V2"
+    },
+    "vit_base": {
+      "source": "timm",
+      "tag": "vit_base_patch16_224.augreg_in1k"
+    }
+  },
+  "training": {
+    "batch_size": 32,
+    "grad_accum_steps": 1,
+    "max_total_epochs": 50,
+    "stage1_lr": 0.001,
+    "stage1_max_epochs": 10,
+    "stage1_patience": 3,
+    "stage2_patience": 7,
+    "optimiser": "Adam",
+    "loss": "BCEWithLogitsLoss, pos_weight = negatives / positives in the training data (D5)",
+    "stage2_scheduler": "CosineAnnealingLR over the remaining epoch budget",
+    "mixed_precision": true,
+    "num_workers": 2,
+    "decision_threshold": 0.5
+  },
+  "grid": {
+    "stage2_lr": [
+      0.0001,
+      5e-05,
+      1e-05
+    ],
+    "weight_decay": [
+      0.0001,
+      1e-05
+    ],
+    "aug_intensity": [
+      "low",
+      "moderate"
+    ]
+  },
+  "selection": {
+    "criterion": "highest mean validation AUC across the five folds",
+    "tie_break": "lower SD of validation AUC across folds"
+  },
+  "final_retrain": {
+    "epoch_rule": "median best Stage 1 epoch and median best Stage 2 epoch across folds"
+  },
+  "statistics": {
+    "alpha": 0.05,
+    "n_primary_tests": 4,
+    "alpha_adjusted": 0.0125,
+    "mcnemar_exact_below": 25,
+    "bootstrap_reps": 2000,
+    "ci_level": 0.95
+  },
+  "interpretability": {
+    "per_cell": 3
+  }
+}

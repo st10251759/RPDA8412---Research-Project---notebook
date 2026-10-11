@@ -1,0 +1,48 @@
+image_id,decision,reason,reviewer,review_date,review_status,confirmed_date,status
+IMG_0040,keep,"keep (pale background, faint smudges, no red rods)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0065,keep,"keep (pale background, thin fibres, no red rods)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0086,exclude_non_diagnostic,"non diagnostic (circular low-magnification vignette field, not comparable to the full-frame images in this dataset)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0101,keep,keep (dark clumps and one thin line; no clear red rod),researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0140,keep,"keep (round dark/maroon blobs, not rod-shaped)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0143,keep,"keep (mostly clean field, tiny marks only)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0154,exclude_non_diagnostic,non diagnostic (severely out of focus),researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0186,keep,"keep (round maroon clumps, not rod-shaped)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0198,keep,"keep (in focus, no red rods seen)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0250,keep,"keep (dark round blobs/nuclei, no rods)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0302,keep,"keep (blue/dark rod-like cluster, not red; not acid-fast colour)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0308,keep,"keep (pale field, thin blue fibres only)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0316,exclude_non_diagnostic,non diagnostic (solid black frame),researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0368,exclude_non_diagnostic,"non diagnostic (unusual green staining artefact, not a comparable ZN field)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0427,keep,"keep (dark blobs with maroon halo, no red rod shape)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0431,keep,"keep (fibrous strand mesh, not rod-shaped bacilli)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0442,exclude_non_diagnostic,non diagnostic (severely out of focus),researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0464,exclude_non_diagnostic,"non diagnostic (circular low-magnification vignette field, same pattern as IMG_0086)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0465,keep,"keep (one very small faint red streak, too small/ambiguous to call a bacillus; flagged in first pass, re-examined and confirmed)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0483,keep,"keep (amorphous blue-green mass, no clear red rod)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0506,keep,"keep (elongated shapes are blue-green, not red)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0539,exclude_non_diagnostic,"non diagnostic (circular low-magnification vignette field, same pattern as IMG_0086)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0551,exclude_non_diagnostic,non diagnostic (severely out of focus),researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0572,keep,"keep (round blue-green blobs, no red rods)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0631,keep,"keep (faint thin mark, not clearly a red rod; flagged in first pass, re-examined and confirmed)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0644,exclude_unannotated_bacilli,unannotated bacilli (several red rod-shaped objects visible),researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0681,exclude_unannotated_bacilli,unannotated bacilli (multiple distinct red rod/streak shapes visible),researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0736,keep,"keep (small red flecks along fibre lines, ambiguous; flagged in first pass, re-examined and confirmed)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0801,keep,"keep (small reddish dots, not clearly rod-shaped; flagged in first pass, re-examined and confirmed)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0818,keep,"keep (chain of rod-shaped organisms present but blue and not red; likely a non-acid-fast organism, not TB)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0842,exclude_non_diagnostic,"non diagnostic (circular low-magnification vignette field, same pattern as IMG_0086)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0866,keep,"keep (blue smear/streak, not red, not clearly rod-shaped)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0893,exclude_non_diagnostic,"non diagnostic (empty bright field, no specimen visible)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0912,exclude_non_diagnostic,non diagnostic (severely out of focus),researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0913,keep,"keep (round maroon/black blobs, not rod-shaped)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0914,keep,"keep (irregular maroon clumps, not elongated rods)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0916,keep,"keep (round maroon blobs and one triangular fragment, not rod-shaped)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0946,keep,"keep (small dark dots, one tiny red mark, not a clear rod)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0960,keep,"keep (one or two very faint thin red marks, ambiguous; flagged in first pass, re-examined and confirmed)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_0988,keep,"keep (small red flecks along fibre lines, ambiguous; flagged in first pass, re-examined and confirmed)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_1049,keep,"keep (dark cluster and artefacts, no red rod)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_1057,exclude_non_diagnostic,"non diagnostic (circular low-magnification vignette field, same pattern as IMG_0086)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_1095,exclude_non_diagnostic,"non diagnostic (near-black frame; appears to be an accidental photo of clothing, not the microscope field)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_1112,exclude_non_diagnostic,"non diagnostic (near-black frame; appears to be an accidental photo of clothing, not the microscope field)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_1162,exclude_non_diagnostic,"non diagnostic (near-black frame; appears to be an accidental photo of clothing, not the microscope field)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_1201,exclude_non_diagnostic,"non diagnostic (circular low-magnification vignette field, same pattern as IMG_0086)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026
+IMG_1227,keep,"keep (fibre lines with small red flecks, ambiguous; flagged in first pass, re-examined and confirmed)",researcher,2026-09-27,confirmed,2026-10-11,confirmed October 2026

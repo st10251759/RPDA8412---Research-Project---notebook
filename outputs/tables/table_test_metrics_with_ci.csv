@@ -1,0 +1,13 @@
+model,metric,value,ci_low,ci_high,interval_method
+resnet50,accuracy,0.83,0.7789,0.8713,Wilson (210/253)
+resnet50,sensitivity,0.834,0.7826,0.8752,Wilson (206/247)
+resnet50,specificity,0.6667,0.3,0.9032,Wilson (4/6)
+resnet50,auc,0.8671,0.7753,0.9501,stratified bootstrap (2000 reps)
+resnet50,precision,0.9904,0.9656,0.9974,Wilson (206/208)
+resnet50,f1,0.9055,0.8764,0.9313,stratified bootstrap (2000 reps)
+vit_base,accuracy,0.8617,0.8137,0.8988,Wilson (218/253)
+vit_base,sensitivity,0.8623,0.8138,0.8998,Wilson (213/247)
+vit_base,specificity,0.8333,0.4365,0.9699,Wilson (5/6)
+vit_base,auc,0.9541,0.8988,0.996,stratified bootstrap (2000 reps)
+vit_base,precision,0.9953,0.974,0.9992,Wilson (213/214)
+vit_base,f1,0.9241,0.8978,0.9489,stratified bootstrap (2000 reps)

@@ -1,0 +1,5 @@
+hypothesis,images_used,resnet50,vit_base,difference,diff_ci_low,diff_ci_high,test,statistic,p_value,discordant_b_resnet_only_correct,discordant_c_vit_only_correct,alpha_adjusted,decision
+H1 accuracy,253,0.83,0.8617,-0.0316,-0.083,0.0198,McNemar (chi-square with continuity correction),1.1136,0.2913,18.0,26.0,0.0125,fail to reject H0
+H2 sensitivity,247,0.834,0.8623,-0.0283,-0.081,0.0243,McNemar (chi-square with continuity correction),0.8372,0.3602,18.0,25.0,0.0125,fail to reject H0
+H3 specificity,6,0.6667,0.8333,-0.1667,-0.5,0.0,McNemar (exact binomial),0.0,1.0,0.0,1.0,0.0125,fail to reject H0
+H4 AUC-ROC,253,0.8671,0.9541,-0.087,-0.1834,0.0093,DeLong (z),-1.7704,0.0767,,,0.0125,fail to reject H0

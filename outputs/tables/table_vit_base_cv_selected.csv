@@ -1,0 +1,2 @@
+model,config_id,val_accuracy_mean,val_accuracy_std,val_sensitivity_mean,val_sensitivity_std,val_specificity_mean,val_specificity_std,val_auc_mean,val_auc_std,val_precision_mean,val_precision_std,val_f1_mean,val_f1_std
+vit_base,lr5e-05_wd1e-04_moderate,0.9182,0.0367,0.9265,0.0438,0.5867,0.3063,0.9195,0.0931,0.9894,0.0076,0.9564,0.0201

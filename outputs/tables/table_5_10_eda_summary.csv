@@ -1,0 +1,10 @@
+item,value
+Final images,1247
+Positive images,1218
+Negative images,29
+Median bacilli per positive image,7.0
+Median bacillus box area (% of frame),0.198
+Bacilli within 10% of a frame edge (%),24.1
+Sharpness Mann-Whitney p-value (class difference),0.7116
+Strongest single-feature correlate of label,G
+Near-duplicate pairs (Hamming <= threshold),259

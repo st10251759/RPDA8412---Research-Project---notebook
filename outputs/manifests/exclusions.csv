@@ -1,0 +1,19 @@
+image_id,image_path,label,exclusion_reason
+IMG_0086,tuberculosis-phonecamera/tuberculosis-phone-0086.jpg,0,"manual review: non diagnostic (circular low-magnification vignette field, not comparable to the full-frame images in this dataset)"
+IMG_0154,tuberculosis-phonecamera/tuberculosis-phone-0154.jpg,0,manual review: non diagnostic (severely out of focus)
+IMG_0316,tuberculosis-phonecamera/tuberculosis-phone-0316.jpg,0,manual review: non diagnostic (solid black frame)
+IMG_0368,tuberculosis-phonecamera/tuberculosis-phone-0368.jpg,0,"manual review: non diagnostic (unusual green staining artefact, not a comparable ZN field)"
+IMG_0442,tuberculosis-phonecamera/tuberculosis-phone-0442.jpg,0,manual review: non diagnostic (severely out of focus)
+IMG_0464,tuberculosis-phonecamera/tuberculosis-phone-0464.jpg,0,"manual review: non diagnostic (circular low-magnification vignette field, same pattern as IMG_0086)"
+IMG_0539,tuberculosis-phonecamera/tuberculosis-phone-0539.jpg,0,"manual review: non diagnostic (circular low-magnification vignette field, same pattern as IMG_0086)"
+IMG_0551,tuberculosis-phonecamera/tuberculosis-phone-0551.jpg,0,manual review: non diagnostic (severely out of focus)
+IMG_0644,tuberculosis-phonecamera/tuberculosis-phone-0644.jpg,0,manual review: unannotated bacilli (several red rod-shaped objects visible)
+IMG_0681,tuberculosis-phonecamera/tuberculosis-phone-0681.jpg,0,manual review: unannotated bacilli (multiple distinct red rod/streak shapes visible)
+IMG_0842,tuberculosis-phonecamera/tuberculosis-phone-0842.jpg,0,"manual review: non diagnostic (circular low-magnification vignette field, same pattern as IMG_0086)"
+IMG_0893,tuberculosis-phonecamera/tuberculosis-phone-0893.jpg,0,"manual review: non diagnostic (empty bright field, no specimen visible)"
+IMG_0912,tuberculosis-phonecamera/tuberculosis-phone-0912.jpg,0,manual review: non diagnostic (severely out of focus)
+IMG_1057,tuberculosis-phonecamera/tuberculosis-phone-1057.jpg,0,"manual review: non diagnostic (circular low-magnification vignette field, same pattern as IMG_0086)"
+IMG_1095,tuberculosis-phonecamera/tuberculosis-phone-1095.jpg,0,"manual review: non diagnostic (near-black frame; appears to be an accidental photo of clothing, not the microscope field)"
+IMG_1112,tuberculosis-phonecamera/tuberculosis-phone-1112.jpg,0,"manual review: non diagnostic (near-black frame; appears to be an accidental photo of clothing, not the microscope field)"
+IMG_1162,tuberculosis-phonecamera/tuberculosis-phone-1162.jpg,0,"manual review: non diagnostic (near-black frame; appears to be an accidental photo of clothing, not the microscope field)"
+IMG_1201,tuberculosis-phonecamera/tuberculosis-phone-1201.jpg,0,"manual review: non diagnostic (circular low-magnification vignette field, same pattern as IMG_0086)"

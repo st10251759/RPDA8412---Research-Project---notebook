@@ -1,0 +1,12 @@
+{
+  "resnet50": {
+    "sec_per_epoch_stage1": 6.2096840143203735,
+    "sec_per_epoch_stage2": 5.582834005355835,
+    "worst_case_grid_hours": 4.756836672623952
+  },
+  "vit_base": {
+    "sec_per_epoch_stage1": 5.35506284236908,
+    "sec_per_epoch_stage2": 7.9682416915893555,
+    "worst_case_grid_hours": 6.204671601454417
+  }
+}

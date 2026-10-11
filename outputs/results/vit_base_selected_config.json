@@ -1,0 +1,26 @@
+{
+  "config_id": "lr5e-05_wd1e-04_moderate",
+  "hp": {
+    "stage2_lr": 5e-05,
+    "weight_decay": 0.0001,
+    "aug_intensity": "moderate"
+  },
+  "final_stage1_epochs": 5,
+  "final_stage2_epochs": 6,
+  "cv_val_auc_mean": 0.9194596462423993,
+  "cv_val_auc_std": 0.09306960935150033,
+  "stage1_best_epochs_by_fold": [
+    7,
+    7,
+    5,
+    1,
+    4
+  ],
+  "stage2_best_epochs_by_fold": [
+    2,
+    6,
+    9,
+    6,
+    1
+  ]
+}
